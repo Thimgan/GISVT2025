@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<template SPSS-Version="1.4" date="2019-02-21" description="" selectPath="78 12 13 900 " xmlns="http://xml.spss.com/spss/visualization" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xml.spss.com/spss/visualization http://xml.spss.com/spss/visualization/vizml-template-3.3.xsd">
+	<setAxisStyle categorical="false" role="x">
+		<style color="#000000" stroke-width="0.5pt" visible="true"/>
+	</setAxisStyle>
+	<setAxisStyle categorical="false" role="y">
+		<style color="#000000" stroke-width="0.5pt" visible="true"/>
+	</setAxisStyle>
+	<addFitLine kernel="epanechnikov" primary="true" proportion="0.5" target="pair" type="loess">
+		<style color="#ef3338" stroke-width="1.5pt" visible="true" width="1.5pt"/>
+	</addFitLine>
+	<addFrame count="1" styleOnly="true" type="visualization">
+		<style color="#ffffff" color2="transparent" number="0" visible="true"/>
+		<style font-family="SansSerif" font-size="8pt" number="1" pattern="0" stroke-linecap="butt" text-fit="true" visible="true"/>
+	</addFrame>
+	<addFrame count="1" styleOnly="true" type="graph">
+		<style color="transparent" color2="transparent" visible="true"/>
+		<style color="transparent" color2="#000000" number="1" visible="true"/>
+	</addFrame>
+	<addFrame count="1" styleOnly="true" type="legend">
+		<style color="transparent" color2="transparent" number="0" visible="true"/>
+	</addFrame>
+	<addFrame count="1" styleOnly="true" type="subtitle"/>
+	<addReferenceLine styleOnly="false" y="1.0" ycategorical="false">
+		<style color="#000000" visible="true" width="1pt"/>
+	</addReferenceLine>
+</template>
