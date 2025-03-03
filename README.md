@@ -14,6 +14,7 @@ This workshop will demonstrate how to convert an existing SPSS regression model 
 - Defining and using functions for modeling
 - Using graphics to visualize modeling results
 - Exporting predicted values
+- Automating the modeling process
 
 This workshop will walk through taking an existing SPSS model and convert it into Python model within Jupyter Notebook. This workshop is most appropriate for experienced SPSS modelers who would like to leverage the power of Python.
 
